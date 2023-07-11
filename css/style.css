@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    color: azure;
+}
+
+/*************************************************************************************HEADER*************************************************************************************/
+
+.position {
+    width: 100%;
+    height: auto;
+}
+
+.redesHeader {
+    display: flex;
+    text-align: end;
+    padding-left: 50px;
+}
+
+/*************************************************************************************HEADER*************************************************************************************/
+/**************************************************************************************MAIN***************************************************************************************/
+main {
+    padding: 10px;
+}
+
+.saludoPagina {
+    padding: 10px 0px 10px 0px;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(217, 236, 236);
+}
+
+.mainIndex {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+main .positionFoto img {
+    width: 100%;
+}
+
+section .cardIndex {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2%;
+    align-items: center;
+}
+
+section .cardIndex h3 {
+    margin-bottom: 1rem;
+}
+
+.contacto {
+    position: absolute;
+    padding: 10px 0px 0px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.fotoContacto {
+    max-width: 100%;
+}
+
+fieldset {
+    padding: 5px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+    .box {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(207, 197, 197);
+    border-radius: 15px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.nEspacio {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+.ubiDos {
+    width: 100%;
+}
+
+.imgUbi {
+    display: flex;
+    margin-top: 10px;
+}
+
+.imgUbiF {
+    width: 100%;
+    background-color: black;
+}
+
+/**************************************************************************************MAIN***************************************************************************************/
+/*************************************************************************************FOOTER**************************************************************************************/
+
+footer {
+    margin: 0px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: #2d259fc1;
+}
+
+.diasHorario {
+    text-align: left;
+    font-size: 18px;
+    padding: 22px 0px 0px 30px;
+}
+
+.redesMid {
+    text-align: center;
+    padding: 50px 0px 0px 8px;
+}
+
+footer section {
+    padding: 0px 55px 15px 0px;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+footer section div h3 {
+    padding: 10px 0px 0px 53px;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+    color: azure;
+}
+
+p {
+    color: rgb(207, 197, 197);
+}
+
+.ubi {
+    color: rgb(207, 197, 197);
+    text-decoration: underline;
+}
+
+.irArriba {
+    font-family: 'Handlee', cursive;
+    padding-left: 20px;
+    color: rgb(207, 197, 197);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.titulo-final {
+    color: rgba(207, 197, 197, 0.363);
+}
+
+.tituloFinalIndex {
+    padding: 90px 57px 10px 0px;
+}
+
+.cel {
+    color: rgb(0, 255, 179);
+}
+
+/*************************************************************************************FOOTER**************************************************************************************/
+
+@media screen and (max-width: 780px) {
+    .redesHeader {
+        display: flex;
+        text-align: end;
+        padding-left: 35px;
+        padding-top: 10px;
+    }
+
+    .ubiDos {
+        width: 1fr;
+        height: auto;
+    }
+
+    footer {
+        margin: 0px 10px 10px 10px;
+        padding: 0px 0px 20px 0px;
+        background-color: #2d259fc1;
+    }
+
+    .contacto {
+        position: absolute;
+        padding: 10px 0px 0px 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+
+    .saludoPagina {
+        padding: 10px 0px 10px 0px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(217, 236, 236);
+    }
+
+    .diasHorario {
+        text-align: left;
+        font-size: 15px;
+        padding: 22px 0px 0px 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    footer section div h3 {
+        padding: 10px 0px 0px 53px;
+        text-align: center;
+        font-size: 12px;
+        text-decoration: none;
+        font-family: 'Handlee', cursive;
+        color: azure;
+    }
+
+}
+
+
+
+
+
+
