@@ -2,12 +2,165 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 body {
     background-color: #000000;
     color: azure;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+}
+
+/* .contenedora-index {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header header header"
+        "main main main main aside"
+        "footer footer footer footer footer";
+} */
+
+.contenedora-index {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.header-index {
+    grid-area: header;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-index {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+
+/* .aside-index {
+    grid-area: aside;
+    margin: 0px 10px 0px 0px;
+} */
+
+.footer-index {
+    grid-area: footer;
+    margin: 12px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.contenedora-contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.header-contacto {
+    grid-area: header;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-contacto {
+    grid-area: main;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-contacto {
+    grid-area: footer;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.contenedora-trabajos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.header-trabajos {
+    grid-area: header;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-trabajos {
+    grid-area: main;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-trabajos {
+    grid-area: footer;
+    margin: 12px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.contenedora-diseños {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.header-diseños {
+    grid-area: header;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-diseños {
+    grid-area: main;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-diseños {
+    grid-area: footer;
+    margin: 12px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.contenedora-ubicacion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.header-ubicacion {
+    grid-area: header;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-ubicacion {
+    grid-area: main;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-ubicacion {
+    grid-area: footer;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(41, 41, 41);
 }
 
 /*************************************************************************************HEADER*************************************************************************************/
@@ -17,73 +170,109 @@ body {
     height: auto;
 }
 
-.redesHeader {
-    display: flex;
-    text-align: end;
-    padding-left: 50px;
+.redes-header {
+    text-align: start;
+    padding-left: 15px;
 }
 
 /*************************************************************************************HEADER*************************************************************************************/
 /**************************************************************************************MAIN***************************************************************************************/
-main {
-    padding: 10px;
-}
-
-.saludoPagina {
-    padding: 10px 0px 10px 0px;
-    font-size: 23px;
+.saludo-pagina {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 60px;
+    font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(217, 236, 236);
+    color: gray;
+    background-image: linear-gradient(rgb(52, 52, 52), rgba(0, 0, 0, 0.462), rgb(52, 52, 52));
 }
 
-.mainIndex {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+.color-link {
+    color: rgb(207, 197, 197);
 }
 
-main .positionFoto img {
+.descripcion {
+    color: rgba(255, 200, 0, 0.924);
+}
+
+.descri-pag {
+    text-align: center;
+}
+
+.parrafo p:first-child {
+    background-color: rgb(41, 41, 41);
+    font-size: 18px;
+}
+
+main .position-foto img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-section .cardIndex {
+.card-index {
     display: flex;
     flex-direction: column;
     background-color: rgb(41, 41, 41);
-    margin: 1rem;
     padding: 1rem;
-    border-radius: 2%;
     align-items: center;
+    font-size: 18px;
+    /* display: inline-block; */
 }
 
-section .cardIndex h3 {
+/* .card-index-columna {
+    display: flex;
+    gap: 1rem;
+} */
+
+
+.card-index-columna {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.8rem;
+    margin: 0.8rem 0rem;
+}
+
+main .card-index-dos {
+    grid-column: span 2;
+}
+
+.card-index h3 {
     margin-bottom: 1rem;
+    color: rgba(255, 200, 0, 0.924);
+    text-align: center;
 }
 
 .contacto {
     position: absolute;
     padding: 10px 0px 0px 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 
-.fotoContacto {
-    max-width: 100%;
+.tipo-letra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-fieldset {
-    padding: 5px;
+.contacto-color {
+    color: hwb(257 74% 4%);
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.foto-contacto {
+    max-width: 100%;
 }
 
 .box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (max-width: 600px) {
     .box {
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -91,7 +280,7 @@ fieldset {
     width: 100%;
     height: auto;
     border: 2px solid rgb(207, 197, 197);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .img {
@@ -99,130 +288,138 @@ fieldset {
     height: auto;
 }
 
-.nEspacio {
+.n-espacio {
     background-color: black;
-    color: azure;
+    color: rgba(255, 200, 0, 0.924);
     text-align: center;
 }
 
-.ubiDos {
+.ubi-dos {
     width: 100%;
+    border-radius: 10px;
 }
 
-.imgUbi {
+.img-ubi {
     display: flex;
     margin-top: 10px;
+    gap: 0.4rem;
 }
 
-.imgUbiF {
+.img-ubi-f {
     width: 100%;
-    background-color: black;
+    border-radius: 10px;
+}
+
+.img-ubi-f-dos {
+    width: 100%;
+    padding: 0px 0px 0px 5px;
+    border-radius: 10px;
+}
+
+.cliente {
+    text-align: center;
+    font-size: 23px;
+    color: rgba(255, 200, 0, 0.924);
 }
 
 /**************************************************************************************MAIN***************************************************************************************/
 /*************************************************************************************FOOTER**************************************************************************************/
 
-footer {
-    margin: 0px 10px 10px 10px;
-    padding: 0px 0px 20px 0px;
-    background-color: #2d259fc1;
-}
-
-.diasHorario {
-    text-align: left;
+.dias-horario {
     font-size: 18px;
     padding: 22px 0px 0px 30px;
 }
 
-.redesMid {
-    text-align: center;
-    padding: 50px 0px 0px 8px;
+.info-footer {
+    font-size: 25px;
+    color: #b0b6fd;
 }
 
-footer section {
-    padding: 0px 55px 15px 0px;
-    text-align: right;
-    font-size: 20px;
-    font-family: 'Handlee', cursive;
+.info-footer-cel {
+    padding-top: 10px;
+}
+
+.redes-mid {
+    text-align: center;
+    padding-top: 40px;
 }
 
 footer section div h3 {
-    padding: 10px 0px 0px 53px;
-    text-align: center;
-    font-size: 10px;
-    text-decoration: none;
-    font-family: 'Handlee', cursive;
-    color: azure;
+    font-size: 12px;
 }
 
 p {
     color: rgb(207, 197, 197);
 }
 
-.ubi {
-    color: rgb(207, 197, 197);
-    text-decoration: underline;
-}
-
-.irArriba {
-    font-family: 'Handlee', cursive;
-    padding-left: 20px;
-    color: rgb(207, 197, 197);
-    font-size: 18px;
-    text-decoration: underline;
+.titulo-final-index {
+    margin-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgb(20, 20, 20), rgb(42, 42, 42), rgb(20, 20, 20));
 }
 
 .titulo-final {
-    color: rgba(207, 197, 197, 0.363);
-}
-
-.tituloFinalIndex {
-    padding: 90px 57px 10px 0px;
+    color: rgba(207, 197, 197, 0.666);
 }
 
 .cel {
-    color: rgb(0, 255, 179);
+    color: rgba(0, 255, 179, 0.725);
+}
+
+.ir-arriba {
+    padding-left: 30px;
+    color: rgba(255, 200, 0, 0.924);
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 /*************************************************************************************FOOTER**************************************************************************************/
 
-@media screen and (max-width: 780px) {
-    .redesHeader {
-        display: flex;
+@media screen and (max-width: 600px) {
+    .redes-header {
+        padding-top: 20px;
         text-align: end;
-        padding-left: 35px;
-        padding-top: 10px;
+        padding-right: 15px;
     }
 
-    .ubiDos {
+    .ubi-dos {
         width: 1fr;
         height: auto;
     }
 
-    footer {
-        margin: 0px 10px 10px 10px;
-        padding: 0px 0px 20px 0px;
-        background-color: #2d259fc1;
-    }
-
     .contacto {
-        position: absolute;
-        padding: 10px 0px 0px 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
+        position: relative;
+        text-align: center;
+        padding: 10px 0px 30px 10px;
+        font-size: 12px;
     }
 
-    .saludoPagina {
-        padding: 10px 0px 10px 0px;
-        font-size: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(217, 236, 236);
-    }
-
-    .diasHorario {
-        text-align: left;
+    .parrafo p:first-child {
         font-size: 15px;
-        padding: 22px 0px 0px 30px;
+    }
+
+    .saludo-pagina {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .card-index-columna {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .card-index {
+        margin: 0.6rem 0rem;
+        font-size: 15px;
+    }
+
+    .dias-horario {
+        font-size: 15px;
+    }
+
+    .info-footer {
+        font-size: 22px;
     }
 
     h2 {
@@ -234,18 +431,22 @@ p {
     }
 
     footer section div h3 {
-        padding: 10px 0px 0px 53px;
-        text-align: center;
-        font-size: 12px;
-        text-decoration: none;
-        font-family: 'Handlee', cursive;
-        color: azure;
+        font-size: 10px;
+    }
+
+    .cliente {
+        font-size: 18px;
+    }
+
+    .ir-arriba {
+        padding-left: 30px;
+        font-size: 16px;
     }
 
 }
 
-
-
-
-
-
+@media screen and (min-width: 1024px) {
+    .card-index-columna {
+        display: flex;
+    }
+}
