@@ -224,12 +224,6 @@ main .position-foto img {
     /* display: inline-block; */
 }
 
-/* .card-index-columna {
-    display: flex;
-    gap: 1rem;
-} */
-
-
 .card-index-columna {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -395,6 +389,9 @@ p {
         flex-direction: column;
     }
 
+    .f {
+        padding-top: 7px;
+    }
 
     .contacto {
         position: relative;
@@ -421,6 +418,18 @@ p {
     .card-index {
         margin: 0.6rem 0rem;
         font-size: 15px;
+    }
+
+    .n-espacio {
+        padding-top: 5px;
+    }
+
+    .img-ubi-f-dos {
+        padding-top: 7px;
+    }
+
+    .descripcion {
+        padding-top: 10px;
     }
 
     .dias-horario {
