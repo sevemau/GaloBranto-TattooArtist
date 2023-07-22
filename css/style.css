@@ -387,6 +387,11 @@ p {
         height: auto;
     }
 
+    .img-ubi {
+        flex-direction: column;
+    }
+    
+
     .contacto {
         position: relative;
         text-align: center;
