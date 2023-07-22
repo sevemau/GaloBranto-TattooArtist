@@ -35,9 +35,9 @@ body {
     margin: 0px 10px 0px 10px;
 }
 
-.footer-index {
+.footer-universal {
     grid-area: footer;
-    margin: 12px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding: 0px 0px 20px 0px;
     background-color: rgb(41, 41, 41);
 }
@@ -45,34 +45,6 @@ body {
 .main-universal {
     grid-area: main;
     margin: 0px 10px 0px 10px;
-}
-
-.footer-contacto {
-    grid-area: footer;
-    margin: 10px 10px 10px 10px;
-    padding: 0px 0px 20px 0px;
-    background-color: rgb(41, 41, 41);
-}
-
-.footer-trabajos {
-    grid-area: footer;
-    margin: 12px 10px 10px 10px;
-    padding: 0px 0px 20px 0px;
-    background-color: rgb(41, 41, 41);
-}
-
-.footer-diseños {
-    grid-area: footer;
-    margin: 12px 10px 10px 10px;
-    padding: 0px 0px 20px 0px;
-    background-color: rgb(41, 41, 41);
-}
-
-.footer-ubicacion {
-    grid-area: footer;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 0px 20px 0px;
-    background-color: rgb(41, 41, 41);
 }
 
 /**************************************************************** ESTRUCTURA DE LOS HTML CON GRID ****************************************************************/
