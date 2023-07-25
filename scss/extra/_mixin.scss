@@ -1,0 +1,46 @@
+@mixin body-universal {
+    background-color: $color-uno;
+    color: $color-dos;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin contenedora-universal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+@mixin header-universal {
+    grid-area: header;
+    margin: 0px 10px;
+}
+
+@mixin footer-universal {
+    grid-area: footer;
+    margin: 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: $color-tres;
+}
+
+@mixin main-universal {
+    grid-area: main;
+    margin: 0px 10px;
+}
+
+@mixin main-index {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}

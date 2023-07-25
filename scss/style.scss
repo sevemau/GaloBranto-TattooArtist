@@ -1,0 +1,15 @@
+// compilando el css
+
+
+
+@import "base/reset";
+@import "extra/extend";
+@import "extra/mixin";
+@import "extra/variables";
+@import "html/inicio";
+@import "html/diseños";
+@import "html/trabajos_realizados";
+@import "html/contacto";
+@import "html/ubicacion";
+@import "mediaquery/media-tablet";
+@import "mediaquery/media-celular";

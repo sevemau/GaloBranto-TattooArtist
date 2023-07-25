@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+    .redes-header {
+        padding-top: 20px;
+        text-align: end;
+        padding-right: 15px;
+    }
+
+    .ubi-dos {
+        width: 1fr;
+        height: auto;
+    }
+
+    .img-ubi {
+        flex-direction: column;
+    }
+
+    .f {
+        padding-top: 7px;
+    }
+
+    .contacto {
+        position: relative;
+        text-align: center;
+        padding: 10px 0px 30px 10px;
+        font-size: 12px;
+    }
+
+    .parrafo p:first-child {
+        font-size: 15px;
+    }
+
+    .saludo-pagina {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .card-index-columna {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .card-index {
+        margin: 0.6rem 0rem;
+        font-size: 15px;
+    }
+
+    .n-espacio {
+        padding-top: 5px;
+    }
+
+    .img-ubi-f-dos {
+        padding-top: 7px;
+    }
+
+    .descripcion {
+        padding-top: 10px;
+    }
+
+    .dias-horario {
+        font-size: 15px;
+    }
+
+    .info-footer {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    footer section div h3 {
+        font-size: 10px;
+    }
+
+    .cliente {
+        font-size: 18px;
+    }
+
+    .ir-arriba {
+        padding-left: 30px;
+        font-size: 16px;
+    }
+
+}
