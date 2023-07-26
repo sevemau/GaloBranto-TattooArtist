@@ -1,0 +1,10 @@
+@import "../utilidades/variables";
+
+/* body universal */
+
+body {
+    background-color: $color-uno;
+    color: $color-dos;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+}

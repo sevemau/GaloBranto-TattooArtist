@@ -1,16 +1,12 @@
 // compilando el css
 
-
 @import "./extra/extend";
 @import "./extra/mixin";
 @import "./extra/variables";
 @import "./base/reset";
 @import "./base/base";
-@import "./html/inicio";
-@import "./html/diseños";
-@import "./html/trabajos_realizados";
-@import "./html/contacto";
-@import "./html/ubicacion";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
 @import "./layout/mediaquery/media-tablet";
 @import "./layout/mediaquery/media-celular";
-
