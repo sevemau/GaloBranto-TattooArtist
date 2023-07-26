@@ -1,0 +1,35 @@
+/* estructura grid */
+
+.contenedora-universal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.header-universal {
+    grid-area: header;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-index {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-universal {
+    grid-area: footer;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.main-universal {
+    grid-area: main;
+    margin: 0px 10px 0px 10px;
+}

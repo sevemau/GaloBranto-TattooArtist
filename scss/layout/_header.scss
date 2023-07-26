@@ -1,5 +1,15 @@
 /* estilos de header */
 
-@import "../extra/variables";
-@import "../extra/mixin";
-@import "../extra/extend";
+.position {
+    width: 100%;
+    height: auto;
+}
+
+.redes-header {
+    text-align: start;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}

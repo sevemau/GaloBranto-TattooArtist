@@ -1,10 +1,9 @@
-// compilando el css
+// compilacion del css
 
-@import "./extra/extend";
-@import "./extra/mixin";
-@import "./extra/variables";
+
 @import "./base/reset";
 @import "./base/base";
+@import "./base/grid-estructura";
 @import "./layout/header";
 @import "./layout/main";
 @import "./layout/footer";
