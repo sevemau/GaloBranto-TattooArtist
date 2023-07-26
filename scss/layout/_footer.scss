@@ -3,3 +3,43 @@
 @import "../extra/variables";
 @import "../extra/mixin";
 @import "../extra/extend";
+
+.dias-horario {
+    font-size: 18px;
+    padding: 22px 0px 0px 30px;
+}
+
+.info-footer {
+    font-size: 25px;
+    color: #b0b6fd;
+}
+
+.info-footer-cel {
+    padding-top: 10px;
+}
+
+.redes-mid {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer section div h3 {
+    font-size: 12px;
+}
+
+.titulo-final-index {
+    margin-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.462), rgb(41, 41, 41), rgba(0, 0, 0, 0.462));
+}
+
+.verde {
+    color: rgba(0, 255, 179, 0.725);
+}
+
+.ir-arriba {
+    padding-left: 30px;
+    color: rgba(255, 200, 0, 0.924);
+    font-size: 20px;
+    text-decoration: underline;
+}

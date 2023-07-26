@@ -6,9 +6,8 @@
 
 body {
     background-color: #000000;
-    color: azure;
-    font-family: 'Handlee', cursive;
-    text-decoration: none;
+    color: rgb(207, 197, 197);
+    font-family: 'Roboto', sans-serif;
 }
 
 /**************************************************************** ESTRUCTURA DE LOS HTML CON GRID ****************************************************************/
@@ -66,14 +65,13 @@ a {
 
 /***************************************************************************** HEADER *****************************************************************************/
 /****************************************************************************** MAIN *******************************************************************************/
+
 .saludo-pagina {
     text-align: center;
     padding: 5px 0px 5px 0px;
     margin-bottom: 60px;
     font-size: 28px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    background-image: linear-gradient(rgb(52, 52, 52), rgba(0, 0, 0, 0.462), rgb(52, 52, 52));
+    background-image: linear-gradient(rgb(41, 41, 41), rgba(0, 0, 0, 0.462), rgb(41, 41, 41));
 }
 
 .color-link {
@@ -88,7 +86,7 @@ a {
     text-align: center;
 }
 
-.parrafo p:first-child {
+.parrafo {
     background-color: rgb(41, 41, 41);
     font-size: 18px;
 }
@@ -132,12 +130,8 @@ main .card-index-dos {
     font-size: 14px;
 }
 
-.tipo-letra {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .contacto-color {
-    color: hwb(257 74% 4%);
+    color: #b0b6fd;
     text-decoration: underline;
     font-size: 25px;
 }
@@ -151,12 +145,6 @@ main .card-index-dos {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
     position: relative;
-}
-
-@media only screen and (max-width: 600px) {
-    .box {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 .card {
@@ -195,12 +183,10 @@ main .card-index-dos {
     opacity: 0;
     transition: opacity 0.6s;
     background-color: rgba(58, 58, 58, 0);
-    color: azure;
     padding: 10px;
 }
 
 .n-espacio {
-    background-color: black;
     color: rgba(255, 200, 0, 0.924);
     text-align: center;
 }
@@ -216,21 +202,10 @@ main .card-index-dos {
     gap: 0.4rem;
 }
 
-.img-ubi-f {
-    width: 100%;
-    border-radius: 10px;
-}
-
 .img-ubi-f-dos {
     width: 100%;
     padding: 0px 0px 0px 5px;
     border-radius: 10px;
-}
-
-.cliente {
-    text-align: center;
-    font-size: 23px;
-    color: rgba(255, 200, 0, 0.924);
 }
 
 /****************************************************************************** MAIN *******************************************************************************/
@@ -259,21 +234,13 @@ footer section div h3 {
     font-size: 12px;
 }
 
-p {
-    color: rgb(207, 197, 197);
-}
-
 .titulo-final-index {
     margin-top: 10px;
     text-align: center;
-    background-image: linear-gradient(rgb(20, 20, 20), rgb(42, 42, 42), rgb(20, 20, 20));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.462), rgb(41, 41, 41), rgba(0, 0, 0, 0.462));
 }
 
-.titulo-final {
-    color: rgba(207, 197, 197, 0.666);
-}
-
-.cel {
+.verde {
     color: rgba(0, 255, 179, 0.725);
 }
 
@@ -288,6 +255,11 @@ p {
 /*************************************************************** APLICANDO MEDIA QUERYS NECESARIAS ****************************************************************/
 
 @media screen and (max-width: 600px) {
+
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .redes-header {
         padding-top: 20px;
         text-align: end;
@@ -314,7 +286,7 @@ p {
         font-size: 12px;
     }
 
-    .parrafo p:first-child {
+    .parrafo {
         font-size: 15px;
     }
 
@@ -364,10 +336,6 @@ p {
 
     footer section div h3 {
         font-size: 10px;
-    }
-
-    .cliente {
-        font-size: 18px;
     }
 
     .ir-arriba {
