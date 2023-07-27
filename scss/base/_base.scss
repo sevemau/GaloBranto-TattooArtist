@@ -1,7 +1,9 @@
+@import "../utilidades/variables";
+
 /* body universal */
 
 body {
-    background-color: #000000;
-    color: rgb(207, 197, 197);
+    background-color: $color-uno;
+    color: $color-dos;
     font-family: 'Roboto', sans-serif;
 }

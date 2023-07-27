@@ -6,7 +6,7 @@
 
 /* body universal */
 body {
-  background-color: #000000;
+  background-color: black;
   color: #cfc5c5;
   font-family: 'Roboto', sans-serif; }
 
@@ -19,23 +19,23 @@ body {
 
 .header-universal {
   grid-area: header;
-  margin: 0px 10px 0px 10px; }
+  margin: 0px 10px; }
 
 .main-index {
   grid-area: main;
   display: flex;
   flex-direction: column;
-  margin: 0px 10px 0px 10px; }
+  margin: 0px 10px; }
 
 .footer-universal {
   grid-area: footer;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   padding: 0px 0px 20px 0px;
   background-color: #292929; }
 
 .main-universal {
   grid-area: main;
-  margin: 0px 10px 0px 10px; }
+  margin: 0px 10px; }
 
 /* estilos de header */
 .position {
