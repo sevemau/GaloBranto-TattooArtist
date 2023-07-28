@@ -1,3 +1,5 @@
+@import "../utilidades/variables";
+
 /* estilos de main */
 
 .saludo-pagina {
@@ -5,15 +7,15 @@
     padding: 5px 0px 5px 0px;
     margin-bottom: 60px;
     font-size: 28px;
-    background-image: linear-gradient(rgb(41, 41, 41), rgba(0, 0, 0, 0.462), rgb(41, 41, 41));
+    background-image: linear-gradient($color-tres, $color-cinco, $color-tres);
 }
 
 .color-link {
-    color: rgb(207, 197, 197);
+    color: $color-dos;
 }
 
 .descripcion {
-    color: rgba(255, 200, 0, 0.924);
+    color: $color-siete;
 }
 
 .descri-pag {
@@ -21,7 +23,7 @@
 }
 
 .parrafo {
-    background-color: rgb(41, 41, 41);
+    background-color: $color-tres;
     font-size: 18px;
 }
 
@@ -34,7 +36,7 @@ main .position-foto img {
 .card-index {
     display: flex;
     flex-direction: column;
-    background-color: rgb(41, 41, 41);
+    background-color: $color-tres;
     padding: 1rem;
     align-items: center;
     font-size: 18px;
@@ -54,7 +56,7 @@ main .card-index-dos {
 
 .card-index h3 {
     margin-bottom: 1rem;
-    color: rgba(255, 200, 0, 0.924);
+    color: $color-siete;
     text-align: center;
 }
 
@@ -65,7 +67,7 @@ main .card-index-dos {
 }
 
 .contacto-color {
-    color: #b0b6fd;
+    color: $color-ocho;
     text-decoration: underline;
     font-size: 25px;
 }
@@ -84,7 +86,7 @@ main .card-index-dos {
 .card {
     width: 100%;
     height: auto;
-    border: 2px solid rgb(207, 197, 197);
+    border: 2px solid $color-seis;
     border-radius: 10px;
 }
 
@@ -116,12 +118,12 @@ main .card-index-dos {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.6s;
-    background-color: rgba(58, 58, 58, 0);
+    background-color: $color-nueve;
     padding: 10px;
 }
 
 .n-espacio {
-    color: rgba(255, 200, 0, 0.924);
+    color: $color-siete;
     text-align: center;
 }
 

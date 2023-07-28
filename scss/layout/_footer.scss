@@ -1,3 +1,5 @@
+@import "../utilidades/variables";
+
 /* estilos de footer */
 
 .dias-horario {
@@ -7,7 +9,7 @@
 
 .info-footer {
     font-size: 25px;
-    color: #b0b6fd;
+    color: $color-ocho;
 }
 
 .info-footer-cel {
@@ -26,16 +28,16 @@ footer section div h3 {
 .titulo-final-index {
     margin-top: 10px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.462), rgb(41, 41, 41), rgba(0, 0, 0, 0.462));
+    background-image: linear-gradient($color-cinco, $color-tres, $color-cinco);
 }
 
 .verde {
-    color: rgba(0, 255, 179, 0.725);
+    color: $color-cuatro;
 }
 
 .ir-arriba {
     padding-left: 30px;
-    color: rgba(255, 200, 0, 0.924);
+    color: $color-siete;
     font-size: 20px;
     text-decoration: underline;
 }
