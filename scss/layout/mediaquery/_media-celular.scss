@@ -6,10 +6,12 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .redes-header {
-        padding-top: 20px;
-        text-align: end;
-        padding-right: 15px;
+    header {
+        .redes-header {
+            padding-top: 20px;
+            text-align: end;
+            padding-right: 15px;
+        }
     }
 
     .ubi-dos {
@@ -32,24 +34,32 @@
         font-size: 12px;
     }
 
-    .parrafo {
-        font-size: 15px;
-    }
+    main {
+        .saludo-pagina {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
 
-    .saludo-pagina {
-        font-size: 22px;
-        margin-bottom: 30px;
-    }
+        .descripcion {
+            padding-top: 10px;
+        }
 
-    .card-index-columna {
-        display: flex;
-        flex-direction: column;
-        gap: 0rem;
-    }
+        .parrafo {
+            p {
+                font-size: 15px;
+            }
+        }
 
-    .card-index {
-        margin: 0.6rem 0rem;
-        font-size: 15px;
+        .card-index-columna {
+            display: flex;
+            flex-direction: column;
+            gap: 0rem;
+
+            .card-index {
+                margin: 0.6rem 0rem;
+                font-size: 15px;
+            }
+        }
     }
 
     .n-espacio {
@@ -60,29 +70,18 @@
         padding-top: 7px;
     }
 
-    .descripcion {
-        padding-top: 10px;
-    }
+    footer {
+        .dias-horario {
+            font-size: 15px;
 
-    .dias-horario {
-        font-size: 15px;
-    }
+            .info-footer {
+                font-size: 22px;
+            }
+        }
 
-    .info-footer {
-        font-size: 22px;
+        .ir-arriba {
+            padding-left: 30px;
+            font-size: 16px;
+        }
     }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    .ir-arriba {
-        padding-left: 30px;
-        font-size: 16px;
-    }
-
 }

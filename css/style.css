@@ -183,7 +183,7 @@ footer .titulo-final-index {
 @media screen and (max-width: 600px) {
   .box {
     grid-template-columns: repeat(2, 1fr); }
-  .redes-header {
+  header .redes-header {
     padding-top: 20px;
     text-align: end;
     padding-right: 15px; }
@@ -199,32 +199,28 @@ footer .titulo-final-index {
     text-align: center;
     padding: 10px 0px 30px 10px;
     font-size: 12px; }
-  .parrafo {
-    font-size: 15px; }
-  .saludo-pagina {
+  main .saludo-pagina {
     font-size: 22px;
     margin-bottom: 30px; }
-  .card-index-columna {
+  main .descripcion {
+    padding-top: 10px; }
+  main .parrafo p {
+    font-size: 15px; }
+  main .card-index-columna {
     display: flex;
     flex-direction: column;
     gap: 0rem; }
-  .card-index {
-    margin: 0.6rem 0rem;
-    font-size: 15px; }
+    main .card-index-columna .card-index {
+      margin: 0.6rem 0rem;
+      font-size: 15px; }
   .n-espacio {
     padding-top: 5px; }
   .img-ubi-f-dos {
     padding-top: 7px; }
-  .descripcion {
-    padding-top: 10px; }
-  .dias-horario {
+  footer .dias-horario {
     font-size: 15px; }
-  .info-footer {
-    font-size: 22px; }
-  h2 {
-    font-size: 22px; }
-  h3 {
-    font-size: 20px; }
-  .ir-arriba {
+    footer .dias-horario .info-footer {
+      font-size: 22px; }
+  footer .ir-arriba {
     padding-left: 30px;
     font-size: 16px; } }
