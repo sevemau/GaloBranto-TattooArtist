@@ -77,17 +77,16 @@ main .card-index-dos {
   color: rgba(255, 200, 0, 0.924);
   text-align: center; }
 
-.contacto {
+main .contacto {
   position: absolute;
   padding: 10px 0px 0px 25px;
   font-size: 14px; }
+  main .contacto form fieldset .contacto-color {
+    color: #cdbdf5;
+    text-decoration: underline;
+    font-size: 25px; }
 
-.contacto-color {
-  color: #cdbdf5;
-  text-decoration: underline;
-  font-size: 25px; }
-
-.foto-contacto {
+main .foto-contacto {
   max-width: 100%; }
 
 .box {
@@ -101,10 +100,6 @@ main .card-index-dos {
   height: auto;
   border: 2px solid #cfc5c5;
   border-radius: 10px; }
-
-.img {
-  width: 100%;
-  height: auto; }
 
 .boxi {
   perspective: 1000px; }
@@ -154,8 +149,8 @@ footer .dias-horario {
   footer .dias-horario .info-footer {
     font-size: 25px;
     color: #cdbdf5; }
-    footer .dias-horario .info-footer .info-footer-cel {
-      padding-top: 10px; }
+  footer .dias-horario .info-footer-cel {
+    padding-top: 10px; }
 
 footer .redes-mid {
   text-align: center;
@@ -187,23 +182,19 @@ footer .titulo-final-index {
     padding-top: 20px;
     text-align: end;
     padding-right: 15px; }
-  .ubi-dos {
-    width: 1fr;
-    height: auto; }
-  .img-ubi {
-    flex-direction: column; }
-  .f {
-    padding-top: 7px; }
-  .contacto {
+  main div h1 {
+    font-size: 22px;
+    margin-bottom: 30px; }
+  main div .descripcion {
+    padding-top: 10px;
+    font-size: 20px; }
+  main .contacto {
     position: relative;
     text-align: center;
     padding: 10px 0px 30px 10px;
     font-size: 12px; }
-  main .saludo-pagina {
-    font-size: 22px;
-    margin-bottom: 30px; }
-  main .descripcion {
-    padding-top: 10px; }
+    main .contacto form fieldset .contacto-color {
+      font-size: 20px; }
   main .parrafo p {
     font-size: 15px; }
   main .card-index-columna {
@@ -213,8 +204,18 @@ footer .titulo-final-index {
     main .card-index-columna .card-index {
       margin: 0.6rem 0rem;
       font-size: 15px; }
+      main .card-index-columna .card-index h3 {
+        font-size: 20px; }
+  main .img-ubi {
+    flex-direction: column; }
+  main section .ubi-dos {
+    width: 1fr;
+    height: auto; }
+  main .f {
+    padding-top: 7px; }
   .n-espacio {
-    padding-top: 5px; }
+    padding-top: 5px;
+    font-size: 20px; }
   .img-ubi-f-dos {
     padding-top: 7px; }
   footer .dias-horario {

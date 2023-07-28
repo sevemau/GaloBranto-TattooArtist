@@ -14,34 +14,31 @@
         }
     }
 
-    .ubi-dos {
-        width: 1fr;
-        height: auto;
-    }
-
-    .img-ubi {
-        flex-direction: column;
-    }
-
-    .f {
-        padding-top: 7px;
-    }
-
-    .contacto {
-        position: relative;
-        text-align: center;
-        padding: 10px 0px 30px 10px;
-        font-size: 12px;
-    }
-
     main {
-        .saludo-pagina {
-            font-size: 22px;
-            margin-bottom: 30px;
+        div {
+            h1 {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+
+            .descripcion {
+                padding-top: 10px;
+                font-size: 20px;
+            }
         }
 
-        .descripcion {
-            padding-top: 10px;
+        .contacto {
+            position: relative;
+            text-align: center;
+            padding: 10px 0px 30px 10px;
+            font-size: 12px;
+            form{
+                fieldset{
+                    .contacto-color{
+                        font-size: 20px;
+                    }
+                }
+            }
         }
 
         .parrafo {
@@ -58,12 +55,31 @@
             .card-index {
                 margin: 0.6rem 0rem;
                 font-size: 15px;
+                h3{
+                    font-size: 20px;
+                }
             }
+        }
+
+        .img-ubi {
+            flex-direction: column;
+        }
+
+        section {
+            .ubi-dos {
+                width: 1fr;
+                height: auto;
+            }
+        }
+
+        .f {
+            padding-top: 7px;
         }
     }
 
     .n-espacio {
         padding-top: 5px;
+        font-size: 20px;
     }
 
     .img-ubi-f-dos {

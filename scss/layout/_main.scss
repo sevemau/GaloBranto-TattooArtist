@@ -34,19 +34,12 @@ main {
 
     }
 
-}
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 
-
-
-
-
-
-
-
-main img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
 }
 
 .card-index {
@@ -76,20 +69,27 @@ main .card-index-dos {
     text-align: center;
 }
 
-.contacto {
-    position: absolute;
-    padding: 10px 0px 0px 25px;
-    font-size: 14px;
-}
+main {
+    .contacto {
+        position: absolute;
+        padding: 10px 0px 0px 25px;
+        font-size: 14px;
 
-.contacto-color {
-    color: $color-ocho;
-    text-decoration: underline;
-    font-size: 25px;
-}
+        form {
+            fieldset {
+                .contacto-color {
+                    color: $color-ocho;
+                    text-decoration: underline;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 
-.foto-contacto {
-    max-width: 100%;
+    .foto-contacto {
+        max-width: 100%;
+    }
+
 }
 
 .box {
@@ -104,11 +104,6 @@ main .card-index-dos {
     height: auto;
     border: 2px solid $color-seis;
     border-radius: 10px;
-}
-
-.img {
-    width: 100%;
-    height: auto;
 }
 
 .boxi {
