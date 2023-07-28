@@ -1,43 +1,44 @@
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 
 /* estilos de footer */
 
-.dias-horario {
-    font-size: 18px;
-    padding: 22px 0px 0px 30px;
+footer{
+    .dias-horario {
+        font-size: 18px;
+        padding: 22px 0px 0px 30px;
+        .info-footer {
+            font-size: 25px;
+            color: $color-ocho;
+            .info-footer-cel {
+                padding-top: 10px;
+            }
+        }
+    }
+    .redes-mid {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .ir-arriba {
+        padding-left: 30px;
+        color: $color-siete;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .titulo-final-index {
+        margin-top: 10px;
+        text-align: center;
+        background-image: linear-gradient($color-cinco, $color-tres, $color-cinco);
+        div{
+            h3{
+                font-size: 12px;
+            }
+        }
+    }
 }
 
-.info-footer {
-    font-size: 25px;
-    color: $color-ocho;
-}
 
-.info-footer-cel {
-    padding-top: 10px;
-}
 
-.redes-mid {
-    text-align: center;
-    padding-top: 40px;
-}
 
-footer section div h3 {
-    font-size: 12px;
-}
 
-.titulo-final-index {
-    margin-top: 10px;
-    text-align: center;
-    background-image: linear-gradient($color-cinco, $color-tres, $color-cinco);
-}
 
-.verde {
-    color: $color-cuatro;
-}
-
-.ir-arriba {
-    padding-left: 30px;
-    color: $color-siete;
-    font-size: 20px;
-    text-decoration: underline;
-}

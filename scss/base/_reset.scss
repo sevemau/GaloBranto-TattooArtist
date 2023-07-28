@@ -1,7 +1,7 @@
-/* Reset */
+@import "../utilidades/mixin";
+
+/* reset */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @include reset;
 }

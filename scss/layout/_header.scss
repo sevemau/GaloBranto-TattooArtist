@@ -1,15 +1,24 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
 /* estilos de header */
 
-.position {
-    width: 100%;
-    height: auto;
+header{
+    .position {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .redes-header {
+        text-align: start;
+        padding-left: 15px;
+        div{
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    
 }
 
-.redes-header {
-    text-align: start;
-    padding-left: 15px;
-}
 
-a {
-    text-decoration: none;
-}

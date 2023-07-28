@@ -1,9 +1,19 @@
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 
-/* body universal */
+/* estilos universales */
 
 body {
-    background-color: $color-uno;
-    color: $color-dos;
-    font-family: 'Roboto', sans-serif;
+    @include body;
+    header,main {
+        @include hader-main-margin;
+    }
+    footer {
+        @include footer;
+    }
+    a {
+        text-decoration: none;
+        color: $color-cuatro;
+    }
 }
+

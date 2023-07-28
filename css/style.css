@@ -1,78 +1,57 @@
-/* Reset */
+/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* body universal */
+/* estilos universales */
 body {
   background-color: black;
   color: #cfc5c5;
   font-family: 'Roboto', sans-serif; }
-
-/* estructura grid */
-.contenedora-universal {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
-
-.header-universal {
-  grid-area: header;
-  margin: 0px 10px; }
-
-.main-index {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  margin: 0px 10px; }
-
-.footer-universal {
-  grid-area: footer;
-  margin: 10px;
-  padding: 0px 0px 20px 0px;
-  background-color: #292929; }
-
-.main-universal {
-  grid-area: main;
-  margin: 0px 10px; }
+  body header, body main {
+    margin: 0px 10px; }
+  body footer {
+    margin: 10px;
+    padding: 0px 0px 20px 0px;
+    background-color: #292929; }
+  body a {
+    text-decoration: none;
+    color: rgba(0, 255, 179, 0.725); }
 
 /* estilos de header */
-.position {
+header .position {
   width: 100%;
-  height: auto; }
+  height: auto;
+  object-fit: cover; }
 
-.redes-header {
+header .redes-header {
   text-align: start;
   padding-left: 15px; }
-
-a {
-  text-decoration: none; }
+  header .redes-header div a {
+    text-decoration: none; }
 
 /* estilos de main */
-.saludo-pagina {
+main div h1 {
   text-align: center;
   padding: 5px 0px 5px 0px;
   margin-bottom: 60px;
   font-size: 28px;
   background-image: linear-gradient(#292929, rgba(0, 0, 0, 0.462), #292929); }
 
-.color-link {
-  color: #cfc5c5; }
-
-.descripcion {
-  color: rgba(255, 200, 0, 0.924); }
-
-.descri-pag {
+main .descri-pag {
   text-align: center; }
+  main .descri-pag .descripcion {
+    color: rgba(255, 200, 0, 0.924); }
+  main .descri-pag .parrafo {
+    background-color: #292929;
+    font-size: 18px; }
+    main .descri-pag .parrafo p .color-link {
+      color: #cfc5c5; }
 
-.parrafo {
-  background-color: #292929;
-  font-size: 18px; }
-
-main .position-foto img {
+main img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover; }
 
 .card-index {
@@ -169,37 +148,31 @@ main .card-index-dos {
   border-radius: 10px; }
 
 /* estilos de footer */
-.dias-horario {
+footer .dias-horario {
   font-size: 18px;
   padding: 22px 0px 0px 30px; }
+  footer .dias-horario .info-footer {
+    font-size: 25px;
+    color: #cdbdf5; }
+    footer .dias-horario .info-footer .info-footer-cel {
+      padding-top: 10px; }
 
-.info-footer {
-  font-size: 25px;
-  color: #cdbdf5; }
-
-.info-footer-cel {
-  padding-top: 10px; }
-
-.redes-mid {
+footer .redes-mid {
   text-align: center;
   padding-top: 40px; }
 
-footer section div h3 {
-  font-size: 12px; }
-
-.titulo-final-index {
-  margin-top: 10px;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.462), #292929, rgba(0, 0, 0, 0.462)); }
-
-.verde {
-  color: rgba(0, 255, 179, 0.725); }
-
-.ir-arriba {
+footer .ir-arriba {
   padding-left: 30px;
   color: rgba(255, 200, 0, 0.924);
   font-size: 20px;
   text-decoration: underline; }
+
+footer .titulo-final-index {
+  margin-top: 10px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.462), #292929, rgba(0, 0, 0, 0.462)); }
+  footer .titulo-final-index div h3 {
+    font-size: 12px; }
 
 /* mediaquery tablet */
 @media screen and (min-width: 1024px) {
@@ -252,8 +225,6 @@ footer section div h3 {
     font-size: 22px; }
   h3 {
     font-size: 20px; }
-  footer section div h3 {
-    font-size: 10px; }
   .ir-arriba {
     padding-left: 30px;
     font-size: 16px; } }
