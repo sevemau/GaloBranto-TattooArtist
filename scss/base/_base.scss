@@ -5,8 +5,8 @@
 
 body {
     @include body;
-    header,main {
-        @include hader-main-margin;
+    main {
+        margin: 0px 10px;
     }
     footer {
         @include footer;

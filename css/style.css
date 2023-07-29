@@ -9,7 +9,7 @@ body {
   background-color: black;
   color: #cfc5c5;
   font-family: 'Roboto', sans-serif; }
-  body header, body main {
+  body main {
     margin: 0px 10px; }
   body footer {
     margin: 10px;
@@ -27,7 +27,7 @@ header .position {
 
 header section {
   text-align: start;
-  margin: 0px 0px 20px 18px; }
+  margin: 0px 0px 20px 28px; }
 
 /* estilos de main */
 main div h1 {
@@ -179,6 +179,11 @@ footer .titulo-final {
 
 /* media query celular */
 @media screen and (max-width: 600px) {
+  body main {
+    margin: 0px 5px; }
+  body footer {
+    margin: 10px 5px 5px 5px;
+    padding: 0px 0px 20px 0px; }
   .box {
     grid-template-columns: repeat(2, 1fr); }
   header .position {
@@ -187,7 +192,7 @@ footer .titulo-final {
     object-fit: cover; }
   header section {
     text-align: end;
-    margin: 6px 0px 10px 0px; }
+    margin: 6px 5px 10px 0px; }
   main div h1 {
     font-size: 22px;
     margin-bottom: 30px; }
