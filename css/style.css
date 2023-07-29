@@ -193,19 +193,22 @@ footer .titulo-final {
   header section {
     text-align: end;
     margin: 6px 5px 10px 0px; }
-  main div h1 {
+  main h1 {
     font-size: 22px;
     margin-bottom: 30px; }
-  main div .descripcion {
-    padding-top: 10px;
-    font-size: 20px; }
+    main h1 .descripcion {
+      padding-top: 10px;
+      font-size: 20px; }
   main .contacto {
     position: relative;
     text-align: center;
     padding: 10px 0px 30px 10px;
     font-size: 12px; }
     main .contacto form fieldset .contacto-color {
-      font-size: 20px; }
+      font-size: 20px;
+      display: none; }
+    main .contacto form fieldset div label {
+      font-size: 15px; }
   main .parrafo p {
     font-size: 15px; }
   main .card-index-columna {
@@ -230,7 +233,7 @@ footer .titulo-final {
   .img-ubi-f-dos {
     padding-top: 7px; }
   footer .info-footer {
-    padding: 15px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     text-align: center; }
     footer .info-footer h2 {
       font-size: 20px; }
@@ -242,7 +245,7 @@ footer .titulo-final {
       display: none; }
   footer .redes-footer {
     text-align: center;
-    padding: 40px 0px 20px 0px; }
+    padding: 40px 0px 40px 0px; }
     footer .redes-footer a {
       margin: 5px; }
   footer div a {
