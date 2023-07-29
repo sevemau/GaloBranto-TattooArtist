@@ -3,42 +3,53 @@
 
 /* estilos de footer */
 
-footer{
-    .dias-horario {
-        font-size: 18px;
-        padding: 22px 0px 0px 30px;
-        .info-footer {
+footer {
+    .info-footer {
+        padding: 25px 0px 0px 30px;
+
+        h2 {
             font-size: 25px;
             color: $color-ocho;
         }
-        .info-footer-cel {
-            padding-top: 10px;
+
+        p {
+            font-size: 19px;
+        }
+
+        a {
+            font-size: 19px;
+        }
+
+        .whatsaap {
+            margin-top: 8px;
         }
     }
-    .redes-mid {
+
+    .redes-footer {
         text-align: center;
-        padding-top: 40px;
+        padding-top: 50px;
+
+        a {
+            margin: 5px;
+        }
     }
-    .ir-arriba {
-        padding-left: 30px;
-        color: $color-siete;
-        font-size: 20px;
-        text-decoration: none;
+
+    div {
+        a {
+            padding-left: 30px;
+            color: $color-siete;
+            font-size: 20px;
+        }
     }
-    .titulo-final-index {
-        margin-top: 10px;
+
+    .titulo-final {
+        margin-top: 30px;
+        padding: 8px 0px 1px 0px;
         text-align: center;
         background-image: linear-gradient($color-cinco, $color-tres, $color-cinco);
-        div{
-            h3{
-                font-size: 12px;
-            }
+
+        h3 {
+            font-size: 12px;
         }
     }
 }
-
-
-
-
-
-

@@ -25,11 +25,9 @@ header .position {
   height: auto;
   object-fit: cover; }
 
-header .redes-header {
+header section {
   text-align: start;
-  padding-left: 15px; }
-  header .redes-header div a {
-    text-decoration: none; }
+  margin: 0px 0px 20px 18px; }
 
 /* estilos de main */
 main div h1 {
@@ -143,30 +141,35 @@ main .foto-contacto {
   border-radius: 10px; }
 
 /* estilos de footer */
-footer .dias-horario {
-  font-size: 18px;
-  padding: 22px 0px 0px 30px; }
-  footer .dias-horario .info-footer {
+footer .info-footer {
+  padding: 25px 0px 0px 30px; }
+  footer .info-footer h2 {
     font-size: 25px;
     color: #cdbdf5; }
-  footer .dias-horario .info-footer-cel {
-    padding-top: 10px; }
+  footer .info-footer p {
+    font-size: 19px; }
+  footer .info-footer a {
+    font-size: 19px; }
+  footer .info-footer .whatsaap {
+    margin-top: 8px; }
 
-footer .redes-mid {
+footer .redes-footer {
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 50px; }
+  footer .redes-footer a {
+    margin: 5px; }
 
-footer .ir-arriba {
+footer div a {
   padding-left: 30px;
   color: rgba(255, 200, 0, 0.924);
-  font-size: 20px;
-  text-decoration: none; }
+  font-size: 20px; }
 
-footer .titulo-final-index {
-  margin-top: 10px;
+footer .titulo-final {
+  margin-top: 30px;
+  padding: 8px 0px 1px 0px;
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.462), #292929, rgba(0, 0, 0, 0.462)); }
-  footer .titulo-final-index div h3 {
+  footer .titulo-final h3 {
     font-size: 12px; }
 
 /* mediaquery tablet */
@@ -178,10 +181,13 @@ footer .titulo-final-index {
 @media screen and (max-width: 600px) {
   .box {
     grid-template-columns: repeat(2, 1fr); }
-  header .redes-header {
-    padding-top: 20px;
+  header .position {
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
+  header section {
     text-align: end;
-    padding-right: 15px; }
+    margin: 6px 0px 10px 0px; }
   main div h1 {
     font-size: 22px;
     margin-bottom: 30px; }
@@ -218,10 +224,26 @@ footer .titulo-final-index {
     font-size: 20px; }
   .img-ubi-f-dos {
     padding-top: 7px; }
-  footer .dias-horario {
-    font-size: 15px; }
-    footer .dias-horario .info-footer {
-      font-size: 22px; }
-  footer .ir-arriba {
-    padding-left: 30px;
-    font-size: 16px; } }
+  footer .info-footer {
+    padding: 15px 0px 0px 20px; }
+    footer .info-footer h2 {
+      font-size: 20px; }
+    footer .info-footer p {
+      font-size: 16px; }
+    footer .info-footer a {
+      font-size: 16px; }
+    footer .info-footer .whatsaap {
+      margin-top: 8px; }
+  footer .redes-footer {
+    text-align: center;
+    padding-top: 30px; }
+    footer .redes-footer a {
+      margin: 5px; }
+  footer div a {
+    padding-left: 20px;
+    color: rgba(255, 200, 0, 0.924);
+    font-size: 16px; }
+  footer .titulo-final {
+    margin-top: 20px; }
+    footer .titulo-final h3 {
+      font-size: 11px; } }

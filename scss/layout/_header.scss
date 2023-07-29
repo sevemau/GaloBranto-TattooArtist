@@ -3,22 +3,16 @@
 
 /* estilos de header */
 
-header{
+header {
     .position {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
-    .redes-header {
+
+    section {
         text-align: start;
-        padding-left: 15px;
-        div{
-            a {
-                text-decoration: none;
-            }
-        }
+        margin: 0px 0px 20px 18px;
     }
-    
+
 }
-
-
