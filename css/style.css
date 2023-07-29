@@ -30,7 +30,7 @@ header section {
   margin: 0px 0px 20px 28px; }
 
 /* estilos de main */
-main div h1 {
+main h1 {
   text-align: center;
   padding: 5px 0px 5px 0px;
   margin-bottom: 60px;
@@ -230,7 +230,8 @@ footer .titulo-final {
   .img-ubi-f-dos {
     padding-top: 7px; }
   footer .info-footer {
-    padding: 15px 0px 0px 20px; }
+    padding: 15px 0px 0px 0px;
+    text-align: center; }
     footer .info-footer h2 {
       font-size: 20px; }
     footer .info-footer p {
@@ -238,14 +239,14 @@ footer .titulo-final {
     footer .info-footer a {
       font-size: 16px; }
     footer .info-footer .whatsaap {
-      margin-top: 8px; }
+      display: none; }
   footer .redes-footer {
     text-align: center;
-    padding-top: 30px; }
+    padding: 40px 0px 20px 0px; }
     footer .redes-footer a {
       margin: 5px; }
   footer div a {
-    padding-left: 20px;
+    padding-left: 10px;
     color: rgba(255, 200, 0, 0.924);
     font-size: 16px; }
   footer .titulo-final {
