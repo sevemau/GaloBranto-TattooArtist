@@ -52,6 +52,9 @@ main img {
   height: auto;
   object-fit: cover; }
 
+.center-carrusel {
+  display: none; }
+
 .card-index {
   display: flex;
   flex-direction: column;
@@ -186,6 +189,8 @@ footer .titulo-final {
     padding: 0px 0px 20px 0px; }
   .box {
     grid-template-columns: repeat(2, 1fr); }
+  .none-foto {
+    display: none; }
   header .position {
     width: 100%;
     height: auto;
@@ -227,6 +232,11 @@ footer .titulo-final {
     height: auto; }
   main .f {
     padding-top: 7px; }
+  .center-carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px; }
   .n-espacio {
     padding-top: 5px;
     font-size: 20px; }

@@ -17,6 +17,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .none-foto {
+        display: none;
+    }
+
     header {
         .position {
             width: 100%;
@@ -100,6 +104,13 @@
         }
     }
 
+    .center-carrusel {
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        margin: 0px 0px 10px 0px;
+    }
+
     .n-espacio {
         padding-top: 5px;
         font-size: 20px;
@@ -157,3 +168,4 @@
         }
     }
 }
+
