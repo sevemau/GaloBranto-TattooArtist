@@ -4,13 +4,13 @@
 /* estilos de main */
 
 main {
-        h1 {
-            text-align: center;
-            padding: 5px 0px 5px 0px;
-            margin-bottom: 60px;
-            font-size: 28px;
-            background-image: linear-gradient($color-tres, $color-cinco, $color-tres);
-        }
+    h1 {
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+        margin-bottom: 60px;
+        font-size: 28px;
+        background-image: linear-gradient($color-tres, $color-cinco, $color-tres);
+    }
 
     .descri-pag {
         text-align: center;
@@ -42,6 +42,19 @@ main {
 
 .center-carrusel {
     display: none;
+}
+
+.img-brazo {
+    display: none;
+}
+
+.descanso {
+    padding-top: 10px;
+}
+
+.chico-n {
+    display: flex;
+    padding: 10px;
 }
 
 .card-index {

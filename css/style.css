@@ -55,6 +55,16 @@ main img {
 .center-carrusel {
   display: none; }
 
+.img-brazo {
+  display: none; }
+
+.descanso {
+  padding-top: 10px; }
+
+.chico-n {
+  display: flex;
+  padding: 10px; }
+
 .card-index {
   display: flex;
   flex-direction: column;
@@ -180,6 +190,10 @@ footer .titulo-final {
   .card-index-columna {
     display: flex; } }
 
+@media screen and (max-width: 1024px) {
+  .img-brazo {
+    display: block; } }
+
 /* media query celular */
 @media screen and (max-width: 600px) {
   body main {
@@ -237,6 +251,8 @@ footer .titulo-final {
     align-items: center;
     justify-content: center;
     margin: 0px 0px 10px 0px; }
+  .img-brazo {
+    display: block; }
   .n-espacio {
     padding-top: 5px;
     font-size: 20px; }
