@@ -1,13 +1,28 @@
 /* mediaquery tablet */
 
 @media screen and (min-width: 1024px) {
-    .card-index-columna {
-        display: flex;
+    .main-index {
+        .card-index-columna {
+            display: flex;
+        }
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .img-brazo {
-        display: block;
+    .main-index {
+        .img-brazo {
+            display: block;
+        }
+
+        .box {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    .main-diseños,
+    .main-trabajos {
+        .box {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 }

@@ -1,0 +1,55 @@
+/* estilos main ubicacion */
+
+.main-ubicacion {
+    section {
+        .ubi-dos {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .n-espacio {
+        color: $color-siete;
+        text-align: center;
+    }
+
+    .img-ubi {
+        display: flex;
+        margin-top: 10px;
+        gap: 0.4rem;
+
+        div {
+            .ubi-dos {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        div {
+            .img-ubi-f-dos {
+                width: 100%;
+                padding: 0px 0px 0px 5px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .descri-pag {
+        text-align: center;
+
+        .descripcion {
+            color: $color-siete;
+        }
+
+        .parrafo {
+            background-color: $color-tres;
+            font-size: 18px;
+
+            p {
+                .color-link {
+                    color: $color-dos;
+                }
+            }
+        }
+    }
+}

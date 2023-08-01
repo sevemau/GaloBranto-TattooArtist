@@ -1,0 +1,39 @@
+/* estilos main diseños */
+
+.main-diseños {
+    .chico-n {
+        display: flex;
+        padding: 10px;
+
+        div {
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        position: relative;
+
+        .card {
+            width: 100%;
+            height: auto;
+            border: 2px solid $color-seis;
+            border-radius: 10px;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .descanso {
+        padding-top: 10px;
+    }
+}
