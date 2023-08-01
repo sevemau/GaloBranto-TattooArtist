@@ -1,2 +1,30 @@
 /* estilos main contacto */
 
+.main-contacto {
+    .contacto {
+        position: absolute;
+        padding: 10px 0px 0px 25px;
+        font-size: 14px;
+
+        form {
+            fieldset {
+                .contacto-color {
+                    color: $color-ocho;
+                    text-decoration: underline;
+                    font-size: 25px;
+                }
+
+                div {
+                    label {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .foto-contacto {
+        max-width: 100%;
+    }
+
+}

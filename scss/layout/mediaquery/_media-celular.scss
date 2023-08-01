@@ -13,6 +13,22 @@
         }
     }
 
+    .main-ubicacion {
+        .n-espacio {
+            padding-top: 5px;
+            font-size: 20px;
+        }
+    }
+
+
+    .main-index,
+    .main-diseños,
+    .main-trabajos {
+        .box {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
     .main-index {
         .card-index-columna {
             display: flex;
@@ -39,14 +55,6 @@
         }
     }
 
-    .main-index,
-    .main-diseños,
-    .main-trabajos {
-        .box {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
     .none-foto {
         display: none;
     }
@@ -69,13 +77,15 @@
         h1 {
             font-size: 22px;
             margin-bottom: 30px;
-
-            .descripcion {
-                padding-top: 10px;
-                font-size: 20px;
-            }
         }
 
+        .descripcion {
+            padding-top: 10px;
+            font-size: 20px;
+        }
+    }
+
+    .main-contacto {
         .contacto {
             position: relative;
             text-align: center;
@@ -97,28 +107,30 @@
                 }
             }
         }
+    }
 
-        .parrafo {
-            p {
-                font-size: 15px;
-            }
-        }
 
-        .img-ubi {
-            flex-direction: column;
-        }
-
-        section {
-            .ubi-dos {
-                width: 1fr;
-                height: auto;
-            }
-        }
-
-        .f {
-            padding-top: 7px;
+    .parrafo {
+        p {
+            font-size: 15px;
         }
     }
+
+    .img-ubi {
+        flex-direction: column;
+    }
+
+    section {
+        .ubi-dos {
+            width: 1fr;
+            height: auto;
+        }
+    }
+
+    .f {
+        padding-top: 7px;
+    }
+
 
     .main-ubicacion {
         .ubi-dos {
@@ -131,11 +143,6 @@
 
     .img-brazo {
         display: block;
-    }
-
-    .n-espacio {
-        padding-top: 5px;
-        font-size: 20px;
     }
 
     .img-ubi-f-dos {

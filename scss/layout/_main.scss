@@ -1,7 +1,7 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
 
-/* estilos de main */
+/* estilos de main universal */
 
 main {
     h1 {
@@ -21,7 +21,7 @@ main {
 
         .parrafo {
             background-color: $color-tres;
-            font-size: 18px;
+            font-size: 19px;
 
             p {
                 .color-link {
@@ -32,46 +32,4 @@ main {
 
     }
 }
-
-main {
-    .contacto {
-        position: absolute;
-        padding: 10px 0px 0px 25px;
-        font-size: 14px;
-
-        form {
-            fieldset {
-                .contacto-color {
-                    color: $color-ocho;
-                    text-decoration: underline;
-                    font-size: 25px;
-                }
-            }
-        }
-    }
-
-    .foto-contacto {
-        max-width: 100%;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
