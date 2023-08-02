@@ -163,7 +163,7 @@ main .descri-pag {
   position: absolute;
   padding: 10px 0px 0px 25px;
   font-size: 14px; }
-  .main-contacto .contacto form fieldset .contacto-color {
+  .main-contacto .contacto form fieldset legend {
     color: #cdbdf5;
     text-decoration: underline;
     font-size: 25px; }
@@ -299,7 +299,7 @@ footer .titulo-final {
     text-align: center;
     padding: 10px 0px 30px 10px;
     font-size: 12px; }
-    .main-contacto .contacto form fieldset .contacto-color {
+    .main-contacto .contacto form fieldset legend {
       font-size: 20px;
       display: none; }
     .main-contacto .contacto form fieldset div label {

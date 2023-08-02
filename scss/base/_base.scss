@@ -5,12 +5,15 @@
 
 body {
     @include body;
+
     main {
         margin: 0px 10px;
     }
+
     footer {
         @include footer;
     }
+
     a {
         text-decoration: none;
         color: $color-cuatro;

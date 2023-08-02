@@ -55,7 +55,7 @@
 
         <img class="position" src="../assets/img/galoBrantoBaner.png" alt="Baner">
 
-        <section class="redes-header animate__animated animate__slideInLeft">
+        <section class="animate__animated animate__slideInLeft">
             <a href="https://www.facebook.com/gbranto" target="_blank">
                 <img src="../assets/img/facebook-header.jpeg" alt="">
             </a>
@@ -83,26 +83,26 @@
             <div class="contacto">
                 <form action="" method="post">
                     <fieldset>
-                        <legend class="contacto-color">Haga su consulta o dejenos un mensaje.</legend>
+                        <legend>Haga su consulta o dejenos un mensaje.</legend>
                         <div>
                             <div>
-                                <label for="Usuario">Nombre y Apellido:</label><br>
+                                <label for="nombre">Nombre y Apellido:</label><br>
                                 <input type="text" name="nombre" placeholder="Armando Barreda">
                             </div>
 
                             <div>
                                 <label for="telefono">Teléfono:</label><br>
-                                <input type="number" name="telefono" placeholder="Numero celular">
+                                <input type="tel" name="telefono" id="telefono" placeholder="Numero celular">
                             </div>
 
                             <div>
-                                <label for="Email">Email:</label><br>
-                                <input type="email" placeholder="armandobarreda@...com">
+                                <label for="email">Email:</label><br>
+                                <input type="email" name="email" id="email" placeholder="armandobarreda@...com">
                             </div>
 
                             <div>
                                 <label for="mensaje">Consulta/Mensaje:</label><br>
-                                <textarea name="mensaje" cols="25" rows="2"
+                                <textarea name="mensaje" id="mensaje" cols="25" rows="2"
                                     placeholder="Haga su consulta o deje su mensaje aqui..." required=""></textarea>
                             </div>
                         </div>
