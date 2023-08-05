@@ -21,6 +21,9 @@ body {
     color: rgba(0, 255, 179, 0.725); }
 
 /* estilos de header universal */
+header .navbar-nav {
+  margin-left: auto; }
+
 header .position {
   width: 100%;
   height: auto;
