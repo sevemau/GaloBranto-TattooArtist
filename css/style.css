@@ -121,7 +121,7 @@ main .descri-pag {
 
 .main-diseños .box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
   position: relative; }
   .main-diseños .box .card {
@@ -139,12 +139,21 @@ main .descri-pag {
   padding-top: 10px; }
 
 /* estilos main trabajos realizados */
+.main-trabajos .chico-n {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around; }
+  .main-trabajos .chico-n div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
+
 .main-trabajos .center-carrusel {
   display: none; }
 
 .main-trabajos .box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
   position: relative; }
   .main-trabajos .box .card {
@@ -246,13 +255,14 @@ footer .titulo-final {
     display: flex; } }
 
 @media screen and (max-width: 1024px) {
+  .main-diseños .img-brazo,
+  .main-trabajos .img-brazo,
   .main-index .img-brazo {
     display: block; }
-  .main-index .box {
-    grid-template-columns: repeat(4, 1fr); }
   .main-diseños .box,
-  .main-trabajos .box {
-    grid-template-columns: repeat(3, 1fr); } }
+  .main-trabajos .box,
+  .main-index .box {
+    grid-template-columns: repeat(4, 1fr); } }
 
 /* media query celular */
 @media screen and (max-width: 600px) {
