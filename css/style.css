@@ -24,7 +24,7 @@ body {
 header .navbar-nav {
   margin-left: auto; }
 
-header .position {
+header div .position {
   width: 100%;
   height: auto;
   object-fit: cover; }
@@ -52,7 +52,7 @@ main .descri-pag {
       color: #cfc5c5; }
 
 /* estilos main index */
-.main-index img {
+.main-index div img {
   width: 100%;
   height: auto;
   object-fit: cover; }
@@ -77,7 +77,7 @@ main .descri-pag {
       color: rgba(255, 200, 0, 0.924);
       text-align: center; }
 
-.main-index .img-brazo {
+.main-index div .img-brazo {
   display: none; }
 
 .main-index .box {
@@ -136,7 +136,7 @@ main .descri-pag {
   height: auto;
   object-fit: cover; }
 
-.main-diseños .descanso {
+.main-diseños div .descanso {
   padding-top: 10px; }
 
 /* estilos main trabajos realizados */
@@ -182,7 +182,7 @@ main .descri-pag {
   .main-contacto .contacto form fieldset div label {
     font-size: 15px; }
 
-.main-contacto .foto-contacto {
+.main-contacto div .foto-contacto {
   max-width: 100%; }
 
 /* estilos main ubicacion */
@@ -190,7 +190,7 @@ main .descri-pag {
   width: 100%;
   border-radius: 10px; }
 
-.main-ubicacion .n-espacio {
+.main-ubicacion div .n-espacio {
   color: rgba(255, 200, 0, 0.924);
   text-align: center;
   font-size: 28px; }

@@ -8,10 +8,12 @@ header {
         margin-left: auto;
     }
 
-    .position {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+    div {
+        .position {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
     }
 
     section {

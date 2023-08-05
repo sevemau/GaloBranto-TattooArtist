@@ -1,10 +1,13 @@
 /* estilos main index */
 
 .main-index {
-    img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+
+    div {
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
     }
 
     .card-index-columna {
@@ -34,8 +37,10 @@
         }
     }
 
-    .img-brazo {
-        display: none;
+    div {
+        .img-brazo {
+            display: none;
+        }
     }
 
     .box {
