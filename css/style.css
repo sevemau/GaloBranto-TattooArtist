@@ -109,6 +109,9 @@ main .descri-pag {
   .main-index .box .boxi:hover .texto-imagen {
     opacity: 1; }
 
+.main-index .baner-bot img {
+  margin-top: 10px; }
+
 /* estilos main diseños */
 .main-diseños .chico-n {
   display: flex;
