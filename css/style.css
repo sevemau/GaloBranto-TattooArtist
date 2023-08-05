@@ -82,9 +82,8 @@ main .descri-pag {
 
 .main-index .box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
-  position: relative; }
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px; }
   .main-index .box .boxi {
     perspective: 1000px; }
     .main-index .box .boxi .card {
@@ -121,9 +120,8 @@ main .descri-pag {
 
 .main-diseños .box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
-  position: relative; }
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px; }
   .main-diseños .box .card {
     width: 100%;
     height: auto;
@@ -153,9 +151,8 @@ main .descri-pag {
 
 .main-trabajos .box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
-  position: relative; }
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px; }
   .main-trabajos .box .card {
     width: 100%;
     height: auto;
@@ -262,7 +259,7 @@ footer .titulo-final {
   .main-diseños .box,
   .main-trabajos .box,
   .main-index .box {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 /* media query celular */
 @media screen and (max-width: 600px) {
