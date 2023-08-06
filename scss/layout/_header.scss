@@ -1,5 +1,6 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
+@import "../utilidades/extend";
 
 /* estilos de header universal */
 
@@ -10,9 +11,7 @@ header {
 
     div {
         .position {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
+            @include imagen;
         }
     }
 

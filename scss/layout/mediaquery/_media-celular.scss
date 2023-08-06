@@ -1,3 +1,7 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
 /* media query celular */
 
 @media screen and (max-width: 600px) {
@@ -14,12 +18,13 @@
     }
 
     .main-ubicacion {
-        .n-espacio {
-            padding-top: 5px;
-            font-size: 20px;
+        div {
+            .n-espacio {
+                padding-top: 5px;
+                font-size: 20px;
+            }
         }
     }
-
 
     .main-index,
     .main-diseños,
@@ -60,23 +65,26 @@
     }
 
     header {
-        .position {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
+        div {
+            .position {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
         }
 
         section {
             text-align: end;
             margin: 6px 5px 10px 0px;
         }
-
     }
 
     main {
-        h1 {
-            font-size: 22px;
-            margin-bottom: 30px;
+        div {
+            h1 {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
         }
 
         .descripcion {
@@ -130,7 +138,6 @@
     .f {
         padding-top: 7px;
     }
-
 
     .main-ubicacion {
         .ubi-dos {

@@ -19,3 +19,17 @@
     background-color: $color-tres;
 }
 
+@mixin imagen {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@mixin imagen-radio {
+    width: 100%;
+    height: auto;
+    border: 2px solid $color-seis;
+    border-radius: 10px;
+}
+
+

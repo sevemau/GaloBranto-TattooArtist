@@ -1,3 +1,7 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
 /* estilos main diseños */
 
 .main-diseños {
@@ -7,9 +11,7 @@
 
         div {
             img {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
+                @include imagen;
             }
         }
     }
@@ -18,19 +20,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 10px;
-
-        .card {
-            width: 100%;
-            height: auto;
-            border: 2px solid $color-seis;
-            border-radius: 10px;
-        }
     }
 
     img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+        @include imagen;
     }
 
     div {

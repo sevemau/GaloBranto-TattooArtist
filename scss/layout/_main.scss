@@ -1,15 +1,18 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
+@import "../utilidades/extend";
 
 /* estilos de main universal */
 
 main {
-    h1 {
-        text-align: center;
-        padding: 5px 0px 5px 0px;
-        margin-bottom: 60px;
-        font-size: 28px;
-        background-image: linear-gradient($color-tres, $color-cinco, $color-tres);
+    div {
+        h1 {
+            text-align: center;
+            padding: 5px 0px 5px 0px;
+            margin-bottom: 60px;
+            font-size: 28px;
+            background-image: linear-gradient($color-tres, $color-cinco, $color-tres);
+        }
     }
 
     .descri-pag {

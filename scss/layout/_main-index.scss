@@ -1,12 +1,14 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
 /* estilos main index */
 
 .main-index {
 
     div {
         img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
+            @include imagen;
         }
     }
 
@@ -50,13 +52,6 @@
 
         .boxi {
             perspective: 1000px;
-
-            .card {
-                width: 100%;
-                height: auto;
-                border: 2px solid $color-seis;
-                border-radius: 10px;
-            }
 
             .texto-imagen {
                 text-align: center;

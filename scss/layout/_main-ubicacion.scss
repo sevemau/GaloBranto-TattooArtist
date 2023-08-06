@@ -1,10 +1,13 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
 /* estilos main ubicacion */
 
 .main-ubicacion {
     section {
         .ubi-dos {
-            width: 100%;
-            border-radius: 10px;
+            @extend %width-border;
         }
     }
 
@@ -20,13 +23,6 @@
         display: flex;
         margin-top: 10px;
         gap: 0.4rem;
-
-        div {
-            .ubi-dos {
-                width: 100%;
-                border-radius: 10px;
-            }
-        }
 
         div {
             .img-ubi-f-dos {
